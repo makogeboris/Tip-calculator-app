@@ -36,7 +36,7 @@
           <div class="form__group">
             <div class="form__label-container">
               <label class="form__label" for="bill">Bill</label>
-              <span class="form__warning">Can't be 0</span>
+              <span class="form__warning warning-bill">Can't be empty</span>
             </div>
             <input
               type="number"
@@ -44,9 +44,6 @@
               id="bill"
               class="form__input form__input-bill"
               placeholder="0"
-              aria-invalid="false"
-              value="0"
-              required
             />
           </div>
 
@@ -123,7 +120,7 @@
           <div class="form__group form__group--people">
             <div class="form__label-container">
               <label class="form__label" for="people">Number of People</label>
-              <span class="form__warning">Can't be 0</span>
+              <span class="form__warning warning-people">Can't be empty</span>
             </div>
             <input
               type="number"
@@ -131,9 +128,6 @@
               id="people"
               class="form__input form__input-people"
               placeholder="0"
-              value="0"
-              aria-invalid="false"
-              required
             />
           </div>
         </div>

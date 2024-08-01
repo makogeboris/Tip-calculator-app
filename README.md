@@ -7,8 +7,6 @@
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -27,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution]()
-- [Live Site]()
+- [Solution](https://github.com/mkboris/Tip-calculator-app)
+- [Live Site](https://tip-calculator-app-sandy-one.vercel.app/)
 
 ### Built with
 
@@ -37,10 +35,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
-### What I learned
-
-### Continued development
 
 ## Author
 
