@@ -27,16 +27,16 @@
   <body>
     <main class="main">
       <img class="main__logo" src="images/logo.svg" alt="Splitter" />
-      <h1 class="main__title visually-hidden" aria-label="Tip Calculator">
-        Tip calculator
-      </h1>
+      <h1 class="main__title visually-hidden">Tip calculator</h1>
 
       <form class="form">
         <div class="form__section form__section--bill">
           <div class="form__group">
             <div class="form__label-container">
               <label class="form__label" for="bill">Bill</label>
-              <span class="form__warning warning-bill">Can't be empty</span>
+              <span id="bill-warning" class="form__warning warning-bill"
+                >Can't be empty</span
+              >
             </div>
             <input
               type="number"
@@ -44,6 +44,7 @@
               id="bill"
               class="form__input form__input-bill"
               placeholder="0"
+              aria-describedby="bill-warning"
             />
           </div>
 
@@ -120,7 +121,9 @@
           <div class="form__group form__group--people">
             <div class="form__label-container">
               <label class="form__label" for="people">Number of People</label>
-              <span class="form__warning warning-people">Can't be empty</span>
+              <span id="people-warning" class="form__warning warning-people"
+                >Can't be empty</span
+              >
             </div>
             <input
               type="number"
@@ -128,6 +131,7 @@
               id="people"
               class="form__input form__input-people"
               placeholder="0"
+              aria-describedby="people-warning"
             />
           </div>
         </div>
@@ -138,14 +142,26 @@
               <label class="form__result-label" for="tip-amount"
                 >Tip Amount <span>/ person</span></label
               >
-              <output id="tip-amount" class="form__result-output">$0.00</output>
+              <output
+                id="tip-amount"
+                class="form__result-output"
+                aria-live="polite"
+                aria-atomic="true"
+                >$0.00</output
+              >
             </div>
 
             <div class="form__result">
               <label class="form__result-label" for="total"
                 >Total <span>/ person</span></label
               >
-              <output id="total" class="form__result-output">$0.00</output>
+              <output
+                id="total"
+                class="form__result-output"
+                aria-live="polite"
+                aria-atomic="true"
+                >$0.00</output
+              >
             </div>
           </div>
 
