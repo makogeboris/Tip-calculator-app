@@ -432,7 +432,7 @@ input[type="number"]::-webkit-outer-spin-button {
 @media screen and (min-width: 46.9375rem) {
   .main {
     gap: 5.4375rem;
-    margin-block-end: 100px;
+    margin-block-end: 6.875rem;
   }
 
   .form {
