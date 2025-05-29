@@ -25,7 +25,6 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://github.com/mkboris/Tip-calculator-app)
 - [Live Site](https://tip-calculator-app-sandy-one.vercel.app/)
 
 ### Built with
@@ -38,4 +37,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@mkboris](https://www.frontendmentor.io/profile/mkboris)
+- Frontend Mentor - [makogeboris](https://www.frontendmentor.io/profile/makogeboris)
+- Twitter - [makogeboris](https://x.com/makogeboris)
